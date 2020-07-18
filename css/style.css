@@ -1,0 +1,23 @@
+#Navbar {
+  background: #2a1799;
+  color: floralwhite; }
+
+.jumbotron {
+  background: #1980a0;
+  max-height: 410px;
+  color: floralwhite; }
+
+#thecarousel {
+  background: #080808;
+  max-height: 300px;
+  color: floralwhite; }
+  #thecarousel #vermas {
+    color: floralwhite; }
+
+#vermass {
+  color: #080808; }
+
+.footer {
+  background: #928ea5; }
+  .footer .nav-link {
+    color: black; }

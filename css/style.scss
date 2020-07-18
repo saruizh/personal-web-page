@@ -1,0 +1,43 @@
+$lt-gray: #ddd;
+$background-blue: #2a1799;
+$background-gray: #928ea5;
+$background-dark: #080808;
+$background-darkness: #1980a0;
+
+
+// Height variables
+$carousel-item-height: 300px;
+$jumbotron-item-height: 410px;
+
+@mixin zero-margin($pad-up-dn, $pad-left-right) {
+	margin:0px auto;
+	padding: $pad-up-dn $pad-left-right;
+}
+
+#Navbar{
+    background: $background-blue;
+    color: floralwhite;
+}
+.jumbotron{
+    background: $background-darkness;
+    max-height: $jumbotron-item-height;
+    color: floralwhite;
+}
+
+#thecarousel{
+    background: $background-dark;
+    max-height: $carousel-item-height;
+    color:floralwhite;
+    #vermas{
+        color: floralwhite;
+    }
+}
+#vermass{
+    color: $background-dark;
+}
+.footer{
+    background: $background-gray;
+    .nav-link{
+        color: black;
+    }
+}
